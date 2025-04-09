@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker # Factory for creating new Session objec
 from sqlalchemy.ext.declarative import declarative_base # Used for creating ORM base class
 
 # Defining the URL for the PostgreSQL database connection
-URL_DATABASE = 'postgresql://postgres:8560229@localhost:5432/URL_Shortener'
+URL_DATABASE = 'postgresql://{username}:{password}@localhost:5432/URL_Shortener'
 
 # Creating the database engine, which manages the connection pool and communication with the database
 engine = create_engine(URL_DATABASE)
