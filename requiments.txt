@@ -1,0 +1,5 @@
+pyshorteners
+fastapi
+sqlalchemy
+uvicorn
+psycopg2-binary
